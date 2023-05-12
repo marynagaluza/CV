@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin: 50px;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+a.link:active, a.link:hover, a.link {
+    text-decoration: none;
+    color: #fff;
+}
+.container .left-section {
+    position: relative;
+    background: #0a4864;
+    padding: 40px;
+    color: #fff;
+}
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    margin-bottom: 20px;
+}
+.header .header__photo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.header .header__photo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header .header__name {
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+.info {
+    padding-top: 40px;
+}
+.info h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.info .info__icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.info .info__text {
+    font-weight: 300;
+    font-size: 16px;
+}
+.info h5 {
+    color: #03a9f4;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.container .right-section {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+    color: #333;
+}
+.about {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.about h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.about li {
+    list-style: disc;
+    font-weight: 700;
+}
+
+
+
+
+
+
